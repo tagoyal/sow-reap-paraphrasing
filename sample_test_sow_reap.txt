@@ -1,0 +1,1451 @@
+Document: ID=reordered_0.txt (7614 sentences, 88787 tokens)
+
+Sentence #1 (21 tokens):
+some of them indicated that they might consider removing the product from their product range if anti-dumping duties were imposed .
+
+Tokens:
+[Text=some CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=DT]
+[Text=of CharacterOffsetBegin=5 CharacterOffsetEnd=7 PartOfSpeech=IN]
+[Text=them CharacterOffsetBegin=8 CharacterOffsetEnd=12 PartOfSpeech=PRP]
+[Text=indicated CharacterOffsetBegin=13 CharacterOffsetEnd=22 PartOfSpeech=VBD]
+[Text=that CharacterOffsetBegin=23 CharacterOffsetEnd=27 PartOfSpeech=IN]
+[Text=they CharacterOffsetBegin=28 CharacterOffsetEnd=32 PartOfSpeech=PRP]
+[Text=might CharacterOffsetBegin=33 CharacterOffsetEnd=38 PartOfSpeech=MD]
+[Text=consider CharacterOffsetBegin=39 CharacterOffsetEnd=47 PartOfSpeech=VB]
+[Text=removing CharacterOffsetBegin=48 CharacterOffsetEnd=56 PartOfSpeech=VBG]
+[Text=the CharacterOffsetBegin=57 CharacterOffsetEnd=60 PartOfSpeech=DT]
+[Text=product CharacterOffsetBegin=61 CharacterOffsetEnd=68 PartOfSpeech=NN]
+[Text=from CharacterOffsetBegin=69 CharacterOffsetEnd=73 PartOfSpeech=IN]
+[Text=their CharacterOffsetBegin=74 CharacterOffsetEnd=79 PartOfSpeech=PRP$]
+[Text=product CharacterOffsetBegin=80 CharacterOffsetEnd=87 PartOfSpeech=NN]
+[Text=range CharacterOffsetBegin=88 CharacterOffsetEnd=93 PartOfSpeech=NN]
+[Text=if CharacterOffsetBegin=94 CharacterOffsetEnd=96 PartOfSpeech=IN]
+[Text=anti-dumping CharacterOffsetBegin=97 CharacterOffsetEnd=109 PartOfSpeech=JJ]
+[Text=duties CharacterOffsetBegin=110 CharacterOffsetEnd=116 PartOfSpeech=NNS]
+[Text=were CharacterOffsetBegin=117 CharacterOffsetEnd=121 PartOfSpeech=VBD]
+[Text=imposed CharacterOffsetBegin=122 CharacterOffsetEnd=129 PartOfSpeech=VBN]
+[Text=. CharacterOffsetBegin=130 CharacterOffsetEnd=131 PartOfSpeech=.]
+
+Constituency parse:
+(ROOT
+  (S
+    (NP
+      (NP (DT some))
+      (PP (IN of)
+        (NP (PRP them))))
+    (VP (VBD indicated)
+      (SBAR (IN that)
+        (S
+          (NP (PRP they))
+          (VP (MD might)
+            (VP (VB consider)
+              (S
+                (VP (VBG removing)
+                  (NP (DT the) (NN product))
+                  (PP (IN from)
+                    (NP (PRP$ their) (NN product) (NN range)))))
+              (SBAR (IN if)
+                (S
+                  (NP (JJ anti-dumping) (NNS duties))
+                  (VP (VBD were)
+                    (VP (VBN imposed))))))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, indicated-4)
+det:qmod(them-3, some-1)
+mwe(some-1, of-2)
+nsubj(indicated-4, them-3)
+mark(consider-8, that-5)
+nsubj(consider-8, they-6)
+aux(consider-8, might-7)
+ccomp(indicated-4, consider-8)
+xcomp(consider-8, removing-9)
+det(product-11, the-10)
+dobj(removing-9, product-11)
+case(range-15, from-12)
+nmod:poss(range-15, their-13)
+compound(range-15, product-14)
+nmod:from(removing-9, range-15)
+mark(imposed-20, if-16)
+amod(duties-18, anti-dumping-17)
+nsubjpass(imposed-20, duties-18)
+auxpass(imposed-20, were-19)
+advcl:if(consider-8, imposed-20)
+punct(indicated-4, .-21)
+
+Sentence #2 (25 tokens):
+some of them said that in the case of the imposition of anti-dumping duties , they would consider excluding this product from their range .
+
+Tokens:
+[Text=some CharacterOffsetBegin=132 CharacterOffsetEnd=136 PartOfSpeech=DT]
+[Text=of CharacterOffsetBegin=137 CharacterOffsetEnd=139 PartOfSpeech=IN]
+[Text=them CharacterOffsetBegin=140 CharacterOffsetEnd=144 PartOfSpeech=PRP]
+[Text=said CharacterOffsetBegin=145 CharacterOffsetEnd=149 PartOfSpeech=VBD]
+[Text=that CharacterOffsetBegin=150 CharacterOffsetEnd=154 PartOfSpeech=IN]
+[Text=in CharacterOffsetBegin=155 CharacterOffsetEnd=157 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=158 CharacterOffsetEnd=161 PartOfSpeech=DT]
+[Text=case CharacterOffsetBegin=162 CharacterOffsetEnd=166 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=167 CharacterOffsetEnd=169 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=170 CharacterOffsetEnd=173 PartOfSpeech=DT]
+[Text=imposition CharacterOffsetBegin=174 CharacterOffsetEnd=184 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=185 CharacterOffsetEnd=187 PartOfSpeech=IN]
+[Text=anti-dumping CharacterOffsetBegin=188 CharacterOffsetEnd=200 PartOfSpeech=JJ]
+[Text=duties CharacterOffsetBegin=201 CharacterOffsetEnd=207 PartOfSpeech=NNS]
+[Text=, CharacterOffsetBegin=208 CharacterOffsetEnd=209 PartOfSpeech=,]
+[Text=they CharacterOffsetBegin=210 CharacterOffsetEnd=214 PartOfSpeech=PRP]
+[Text=would CharacterOffsetBegin=215 CharacterOffsetEnd=220 PartOfSpeech=MD]
+[Text=consider CharacterOffsetBegin=221 CharacterOffsetEnd=229 PartOfSpeech=VB]
+[Text=excluding CharacterOffsetBegin=230 CharacterOffsetEnd=239 PartOfSpeech=VBG]
+[Text=this CharacterOffsetBegin=240 CharacterOffsetEnd=244 PartOfSpeech=DT]
+[Text=product CharacterOffsetBegin=245 CharacterOffsetEnd=252 PartOfSpeech=NN]
+[Text=from CharacterOffsetBegin=253 CharacterOffsetEnd=257 PartOfSpeech=IN]
+[Text=their CharacterOffsetBegin=258 CharacterOffsetEnd=263 PartOfSpeech=PRP$]
+[Text=range CharacterOffsetBegin=264 CharacterOffsetEnd=269 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=270 CharacterOffsetEnd=271 PartOfSpeech=.]
+
+Constituency parse:
+(ROOT
+  (S
+    (NP
+      (NP (DT some))
+      (PP (IN of)
+        (NP (PRP them))))
+    (VP (VBD said)
+      (SBAR (IN that)
+        (S
+          (PP (IN in)
+            (NP
+              (NP (DT the) (NN case))
+              (PP (IN of)
+                (NP
+                  (NP (DT the) (NN imposition))
+                  (PP (IN of)
+                    (NP (JJ anti-dumping) (NNS duties)))))))
+          (, ,)
+          (NP (PRP they))
+          (VP (MD would)
+            (VP (VB consider)
+              (PP (VBG excluding)
+                (NP
+                  (NP (DT this) (NN product))
+                  (PP (IN from)
+                    (NP (PRP$ their) (NN range))))))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, said-4)
+det:qmod(them-3, some-1)
+mwe(some-1, of-2)
+nsubj(said-4, them-3)
+mark(consider-18, that-5)
+case(case-8, in-6)
+det(case-8, the-7)
+nmod:in(consider-18, case-8)
+case(imposition-11, of-9)
+det(imposition-11, the-10)
+nmod:of(case-8, imposition-11)
+case(duties-14, of-12)
+amod(duties-14, anti-dumping-13)
+nmod:of(imposition-11, duties-14)
+punct(consider-18, ,-15)
+nsubj(consider-18, they-16)
+aux(consider-18, would-17)
+ccomp(said-4, consider-18)
+case(product-21, excluding-19)
+det(product-21, this-20)
+nmod:excluding(consider-18, product-21)
+case(range-24, from-22)
+nmod:poss(range-24, their-23)
+nmod:from(product-21, range-24)
+punct(said-4, .-25)
+
+Sentence #3 (12 tokens):
+wild , right ? - you need his permission to breathe .
+
+Tokens:
+[Text=wild CharacterOffsetBegin=272 CharacterOffsetEnd=276 PartOfSpeech=RB]
+[Text=, CharacterOffsetBegin=277 CharacterOffsetEnd=278 PartOfSpeech=,]
+[Text=right CharacterOffsetBegin=279 CharacterOffsetEnd=284 PartOfSpeech=NN]
+[Text=? CharacterOffsetBegin=285 CharacterOffsetEnd=286 PartOfSpeech=.]
+[Text=- CharacterOffsetBegin=287 CharacterOffsetEnd=288 PartOfSpeech=:]
+[Text=you CharacterOffsetBegin=289 CharacterOffsetEnd=292 PartOfSpeech=PRP]
+[Text=need CharacterOffsetBegin=293 CharacterOffsetEnd=297 PartOfSpeech=VBP]
+[Text=his CharacterOffsetBegin=298 CharacterOffsetEnd=301 PartOfSpeech=PRP$]
+[Text=permission CharacterOffsetBegin=302 CharacterOffsetEnd=312 PartOfSpeech=NN]
+[Text=to CharacterOffsetBegin=313 CharacterOffsetEnd=315 PartOfSpeech=TO]
+[Text=breathe CharacterOffsetBegin=316 CharacterOffsetEnd=323 PartOfSpeech=VB]
+[Text=. CharacterOffsetBegin=324 CharacterOffsetEnd=325 PartOfSpeech=.]
+
+Constituency parse:
+(ROOT
+  (S
+    (FRAG
+      (ADVP (RB wild))
+      (, ,)
+      (NP (NN right))
+      (. ?))
+    (: -)
+    (S
+      (NP (PRP you))
+      (VP (VBP need)
+        (NP (PRP$ his) (NN permission)
+          (S
+            (VP (TO to)
+              (VP (VB breathe)))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, need-7)
+dep(right-3, wild-1)
+punct(right-3, ,-2)
+dep(need-7, right-3)
+punct(right-3, ?-4)
+punct(need-7, --5)
+nsubj(need-7, you-6)
+nmod:poss(permission-9, his-8)
+dobj(need-7, permission-9)
+mark(breathe-11, to-10)
+acl:to(permission-9, breathe-11)
+punct(need-7, .-12)
+
+Sentence #4 (9 tokens):
+you ca n't even breathe without his permission .
+
+Tokens:
+[Text=you CharacterOffsetBegin=326 CharacterOffsetEnd=329 PartOfSpeech=PRP]
+[Text=ca CharacterOffsetBegin=330 CharacterOffsetEnd=332 PartOfSpeech=MD]
+[Text=n't CharacterOffsetBegin=333 CharacterOffsetEnd=336 PartOfSpeech=RB]
+[Text=even CharacterOffsetBegin=337 CharacterOffsetEnd=341 PartOfSpeech=RB]
+[Text=breathe CharacterOffsetBegin=342 CharacterOffsetEnd=349 PartOfSpeech=VB]
+[Text=without CharacterOffsetBegin=350 CharacterOffsetEnd=357 PartOfSpeech=IN]
+[Text=his CharacterOffsetBegin=358 CharacterOffsetEnd=361 PartOfSpeech=PRP$]
+[Text=permission CharacterOffsetBegin=362 CharacterOffsetEnd=372 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=373 CharacterOffsetEnd=374 PartOfSpeech=.]
+
+Constituency parse:
+(ROOT
+  (S
+    (NP (PRP you))
+    (VP (MD ca) (RB n't)
+      (ADVP (RB even))
+      (VP (VB breathe)
+        (PP (IN without)
+          (NP (PRP$ his) (NN permission)))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, breathe-5)
+nsubj(breathe-5, you-1)
+aux(breathe-5, ca-2)
+neg(breathe-5, n't-3)
+advmod(breathe-5, even-4)
+case(permission-8, without-6)
+nmod:poss(permission-8, his-7)
+nmod:without(breathe-5, permission-8)
+punct(breathe-5, .-9)
+
+Sentence #5 (18 tokens):
+oh , after my miscarriage , i gave up on this dream . i just figured god decided
+
+Tokens:
+[Text=oh CharacterOffsetBegin=375 CharacterOffsetEnd=377 PartOfSpeech=UH]
+[Text=, CharacterOffsetBegin=378 CharacterOffsetEnd=379 PartOfSpeech=,]
+[Text=after CharacterOffsetBegin=380 CharacterOffsetEnd=385 PartOfSpeech=IN]
+[Text=my CharacterOffsetBegin=386 CharacterOffsetEnd=388 PartOfSpeech=PRP$]
+[Text=miscarriage CharacterOffsetBegin=389 CharacterOffsetEnd=400 PartOfSpeech=NN]
+[Text=, CharacterOffsetBegin=401 CharacterOffsetEnd=402 PartOfSpeech=,]
+[Text=i CharacterOffsetBegin=403 CharacterOffsetEnd=404 PartOfSpeech=FW]
+[Text=gave CharacterOffsetBegin=405 CharacterOffsetEnd=409 PartOfSpeech=VBD]
+[Text=up CharacterOffsetBegin=410 CharacterOffsetEnd=412 PartOfSpeech=RP]
+[Text=on CharacterOffsetBegin=413 CharacterOffsetEnd=415 PartOfSpeech=IN]
+[Text=this CharacterOffsetBegin=416 CharacterOffsetEnd=420 PartOfSpeech=DT]
+[Text=dream CharacterOffsetBegin=421 CharacterOffsetEnd=426 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=427 CharacterOffsetEnd=428 PartOfSpeech=.]
+[Text=i CharacterOffsetBegin=429 CharacterOffsetEnd=430 PartOfSpeech=FW]
+[Text=just CharacterOffsetBegin=431 CharacterOffsetEnd=435 PartOfSpeech=RB]
+[Text=figured CharacterOffsetBegin=436 CharacterOffsetEnd=443 PartOfSpeech=VBD]
+[Text=god CharacterOffsetBegin=444 CharacterOffsetEnd=447 PartOfSpeech=NN]
+[Text=decided CharacterOffsetBegin=448 CharacterOffsetEnd=455 PartOfSpeech=VBD]
+
+Constituency parse:
+(ROOT
+  (S
+    (INTJ (UH oh))
+    (, ,)
+    (NP
+      (ADJP (IN after))
+      (NP (PRP$ my) (NN miscarriage)))
+    (, ,)
+    (NP
+      (NP (FW i))
+      (SBAR
+        (S
+          (VP (VBD gave)
+            (PRT (RP up))
+            (X
+              (PP (IN on)
+                (NP (DT this) (NN dream))
+                (. .))))))
+      (SBAR
+        (S
+          (NP (FW i))
+          (ADVP (RB just))
+          (VP (VBD figured)
+            (NP (NN god))))))
+    (VP (VBD decided))))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, decided-18)
+discourse(decided-18, oh-1)
+punct(decided-18, ,-2)
+amod(miscarriage-5, after-3)
+nmod:poss(miscarriage-5, my-4)
+nsubj(decided-18, miscarriage-5)
+punct(decided-18, ,-6)
+nsubj(decided-18, i-7)
+acl:relcl(i-7, gave-8)
+compound:prt(gave-8, up-9)
+case(dream-12, on-10)
+det(dream-12, this-11)
+dep(gave-8, dream-12)
+punct(dream-12, .-13)
+nsubj(figured-16, i-14)
+advmod(figured-16, just-15)
+acl:relcl(i-7, figured-16)
+dobj(figured-16, god-17)
+
+Sentence #6 (26 tokens):
+i just understood that god had decided i could n't be a good mum at all , so he did so it did n't happen .
+
+Tokens:
+[Text=i CharacterOffsetBegin=456 CharacterOffsetEnd=457 PartOfSpeech=LS]
+[Text=just CharacterOffsetBegin=458 CharacterOffsetEnd=462 PartOfSpeech=RB]
+[Text=understood CharacterOffsetBegin=463 CharacterOffsetEnd=473 PartOfSpeech=VBN]
+[Text=that CharacterOffsetBegin=474 CharacterOffsetEnd=478 PartOfSpeech=IN]
+[Text=god CharacterOffsetBegin=479 CharacterOffsetEnd=482 PartOfSpeech=NN]
+[Text=had CharacterOffsetBegin=483 CharacterOffsetEnd=486 PartOfSpeech=VBD]
+[Text=decided CharacterOffsetBegin=487 CharacterOffsetEnd=494 PartOfSpeech=VBN]
+[Text=i CharacterOffsetBegin=495 CharacterOffsetEnd=496 PartOfSpeech=FW]
+[Text=could CharacterOffsetBegin=497 CharacterOffsetEnd=502 PartOfSpeech=MD]
+[Text=n't CharacterOffsetBegin=503 CharacterOffsetEnd=506 PartOfSpeech=RB]
+[Text=be CharacterOffsetBegin=507 CharacterOffsetEnd=509 PartOfSpeech=VB]
+[Text=a CharacterOffsetBegin=510 CharacterOffsetEnd=511 PartOfSpeech=DT]
+[Text=good CharacterOffsetBegin=512 CharacterOffsetEnd=516 PartOfSpeech=JJ]
+[Text=mum CharacterOffsetBegin=517 CharacterOffsetEnd=520 PartOfSpeech=NN]
+[Text=at CharacterOffsetBegin=521 CharacterOffsetEnd=523 PartOfSpeech=IN]
+[Text=all CharacterOffsetBegin=524 CharacterOffsetEnd=527 PartOfSpeech=DT]
+[Text=, CharacterOffsetBegin=528 CharacterOffsetEnd=529 PartOfSpeech=,]
+[Text=so CharacterOffsetBegin=530 CharacterOffsetEnd=532 PartOfSpeech=RB]
+[Text=he CharacterOffsetBegin=533 CharacterOffsetEnd=535 PartOfSpeech=PRP]
+[Text=did CharacterOffsetBegin=536 CharacterOffsetEnd=539 PartOfSpeech=VBD]
+[Text=so CharacterOffsetBegin=540 CharacterOffsetEnd=542 PartOfSpeech=RB]
+[Text=it CharacterOffsetBegin=543 CharacterOffsetEnd=545 PartOfSpeech=PRP]
+[Text=did CharacterOffsetBegin=546 CharacterOffsetEnd=549 PartOfSpeech=VBD]
+[Text=n't CharacterOffsetBegin=550 CharacterOffsetEnd=553 PartOfSpeech=RB]
+[Text=happen CharacterOffsetBegin=554 CharacterOffsetEnd=560 PartOfSpeech=VB]
+[Text=. CharacterOffsetBegin=561 CharacterOffsetEnd=562 PartOfSpeech=.]
+
+Constituency parse:
+(ROOT
+  (S
+    (S
+      (NP (LS i))
+      (VP
+        (ADVP (RB just))
+        (VBN understood)
+        (SBAR (IN that)
+          (S
+            (NP (NN god))
+            (VP (VBD had)
+              (VP (VBN decided)
+                (SBAR
+                  (S
+                    (NP (FW i))
+                    (VP (MD could) (RB n't)
+                      (VP (VB be)
+                        (NP
+                          (NP (DT a) (JJ good) (NN mum))
+                          (PP (IN at)
+                            (NP (DT all))))))))))))))
+    (, ,) (RB so)
+    (S
+      (NP (PRP he))
+      (VP (VBD did)
+        (SBAR (RB so)
+          (S
+            (NP (PRP it))
+            (VP (VBD did) (RB n't)
+              (VP (VB happen)))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, understood-3)
+nsubj(understood-3, i-1)
+advmod(understood-3, just-2)
+mark(decided-7, that-4)
+nsubj(decided-7, god-5)
+aux(decided-7, had-6)
+ccomp(understood-3, decided-7)
+nsubj(mum-14, i-8)
+aux(mum-14, could-9)
+neg(mum-14, n't-10)
+cop(mum-14, be-11)
+det(mum-14, a-12)
+amod(mum-14, good-13)
+ccomp(decided-7, mum-14)
+case(all-16, at-15)
+nmod:at(mum-14, all-16)
+punct(understood-3, ,-17)
+advmod(understood-3, so-18)
+nsubj(did-20, he-19)
+parataxis(understood-3, did-20)
+advmod(happen-25, so-21)
+nsubj(happen-25, it-22)
+aux(happen-25, did-23)
+neg(happen-25, n't-24)
+ccomp(did-20, happen-25)
+punct(understood-3, .-26)
+
+Sentence #7 (15 tokens):
+and if his behavior is making you mad , he learned it from you .
+
+Tokens:
+[Text=and CharacterOffsetBegin=563 CharacterOffsetEnd=566 PartOfSpeech=CC]
+[Text=if CharacterOffsetBegin=567 CharacterOffsetEnd=569 PartOfSpeech=IN]
+[Text=his CharacterOffsetBegin=570 CharacterOffsetEnd=573 PartOfSpeech=PRP$]
+[Text=behavior CharacterOffsetBegin=574 CharacterOffsetEnd=582 PartOfSpeech=NN]
+[Text=is CharacterOffsetBegin=583 CharacterOffsetEnd=585 PartOfSpeech=VBZ]
+[Text=making CharacterOffsetBegin=586 CharacterOffsetEnd=592 PartOfSpeech=VBG]
+[Text=you CharacterOffsetBegin=593 CharacterOffsetEnd=596 PartOfSpeech=PRP]
+[Text=mad CharacterOffsetBegin=597 CharacterOffsetEnd=600 PartOfSpeech=JJ]
+[Text=, CharacterOffsetBegin=601 CharacterOffsetEnd=602 PartOfSpeech=,]
+[Text=he CharacterOffsetBegin=603 CharacterOffsetEnd=605 PartOfSpeech=PRP]
+[Text=learned CharacterOffsetBegin=606 CharacterOffsetEnd=613 PartOfSpeech=VBD]
+[Text=it CharacterOffsetBegin=614 CharacterOffsetEnd=616 PartOfSpeech=PRP]
+[Text=from CharacterOffsetBegin=617 CharacterOffsetEnd=621 PartOfSpeech=IN]
+[Text=you CharacterOffsetBegin=622 CharacterOffsetEnd=625 PartOfSpeech=PRP]
+[Text=. CharacterOffsetBegin=626 CharacterOffsetEnd=627 PartOfSpeech=.]
+
+Constituency parse:
+(ROOT
+  (S (CC and)
+    (SBAR (IN if)
+      (S
+        (NP (PRP$ his) (NN behavior))
+        (VP (VBZ is)
+          (VP (VBG making)
+            (S
+              (NP (PRP you))
+              (ADJP (JJ mad)))))))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBD learned)
+      (NP (PRP it))
+      (PP (IN from)
+        (NP (PRP you))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, learned-11)
+cc(learned-11, and-1)
+mark(making-6, if-2)
+nmod:poss(behavior-4, his-3)
+nsubj(making-6, behavior-4)
+aux(making-6, is-5)
+advcl:if(learned-11, making-6)
+nsubj(mad-8, you-7)
+xcomp(making-6, mad-8)
+punct(learned-11, ,-9)
+nsubj(learned-11, he-10)
+dobj(learned-11, it-12)
+case(you-14, from-13)
+nmod:from(learned-11, you-14)
+punct(learned-11, .-15)
+
+Sentence #8 (17 tokens):
+and be aware that if his behavior is irritating , he 's caught them off you .
+
+Tokens:
+[Text=and CharacterOffsetBegin=628 CharacterOffsetEnd=631 PartOfSpeech=CC]
+[Text=be CharacterOffsetBegin=632 CharacterOffsetEnd=634 PartOfSpeech=VB]
+[Text=aware CharacterOffsetBegin=635 CharacterOffsetEnd=640 PartOfSpeech=JJ]
+[Text=that CharacterOffsetBegin=641 CharacterOffsetEnd=645 PartOfSpeech=IN]
+[Text=if CharacterOffsetBegin=646 CharacterOffsetEnd=648 PartOfSpeech=IN]
+[Text=his CharacterOffsetBegin=649 CharacterOffsetEnd=652 PartOfSpeech=PRP$]
+[Text=behavior CharacterOffsetBegin=653 CharacterOffsetEnd=661 PartOfSpeech=NN]
+[Text=is CharacterOffsetBegin=662 CharacterOffsetEnd=664 PartOfSpeech=VBZ]
+[Text=irritating CharacterOffsetBegin=665 CharacterOffsetEnd=675 PartOfSpeech=JJ]
+[Text=, CharacterOffsetBegin=676 CharacterOffsetEnd=677 PartOfSpeech=,]
+[Text=he CharacterOffsetBegin=678 CharacterOffsetEnd=680 PartOfSpeech=PRP]
+[Text='s CharacterOffsetBegin=681 CharacterOffsetEnd=683 PartOfSpeech=VBZ]
+[Text=caught CharacterOffsetBegin=684 CharacterOffsetEnd=690 PartOfSpeech=VBN]
+[Text=them CharacterOffsetBegin=691 CharacterOffsetEnd=695 PartOfSpeech=PRP]
+[Text=off CharacterOffsetBegin=696 CharacterOffsetEnd=699 PartOfSpeech=RP]
+[Text=you CharacterOffsetBegin=700 CharacterOffsetEnd=703 PartOfSpeech=PRP]
+[Text=. CharacterOffsetBegin=704 CharacterOffsetEnd=705 PartOfSpeech=.]
+
+Constituency parse:
+(ROOT
+  (FRAG (CC and)
+    (VP (VB be)
+      (ADJP (JJ aware))
+      (SBAR (IN that)
+        (S
+          (SBAR (IN if)
+            (S
+              (NP (PRP$ his) (NN behavior))
+              (VP (VBZ is)
+                (ADJP (JJ irritating)))))
+          (, ,)
+          (NP (PRP he))
+          (VP (VBZ 's)
+            (VP (VBN caught)
+              (NP (PRP them))
+              (PP (RP off)
+                (NP (PRP you))))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, aware-3)
+cc(aware-3, and-1)
+cop(aware-3, be-2)
+mark(caught-13, that-4)
+mark(irritating-9, if-5)
+nmod:poss(behavior-7, his-6)
+nsubj(irritating-9, behavior-7)
+cop(irritating-9, is-8)
+advcl:if(caught-13, irritating-9)
+punct(caught-13, ,-10)
+nsubjpass(caught-13, he-11)
+auxpass(caught-13, 's-12)
+ccomp(aware-3, caught-13)
+dobj(caught-13, them-14)
+dep(you-16, off-15)
+nmod(caught-13, you-16)
+punct(aware-3, .-17)
+
+Sentence #9 (13 tokens):
+that 's very kind , but we can make our own way .
+
+Tokens:
+[Text=that CharacterOffsetBegin=706 CharacterOffsetEnd=710 PartOfSpeech=DT]
+[Text='s CharacterOffsetBegin=711 CharacterOffsetEnd=713 PartOfSpeech=VBZ]
+[Text=very CharacterOffsetBegin=714 CharacterOffsetEnd=718 PartOfSpeech=RB]
+[Text=kind CharacterOffsetBegin=719 CharacterOffsetEnd=723 PartOfSpeech=RB]
+[Text=, CharacterOffsetBegin=724 CharacterOffsetEnd=725 PartOfSpeech=,]
+[Text=but CharacterOffsetBegin=726 CharacterOffsetEnd=729 PartOfSpeech=CC]
+[Text=we CharacterOffsetBegin=730 CharacterOffsetEnd=732 PartOfSpeech=PRP]
+[Text=can CharacterOffsetBegin=733 CharacterOffsetEnd=736 PartOfSpeech=MD]
+[Text=make CharacterOffsetBegin=737 CharacterOffsetEnd=741 PartOfSpeech=VB]
+[Text=our CharacterOffsetBegin=742 CharacterOffsetEnd=745 PartOfSpeech=PRP$]
+[Text=own CharacterOffsetBegin=746 CharacterOffsetEnd=749 PartOfSpeech=JJ]
+[Text=way CharacterOffsetBegin=750 CharacterOffsetEnd=753 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=754 CharacterOffsetEnd=755 PartOfSpeech=.]
+
+Constituency parse:
+(ROOT
+  (S
+    (S
+      (NP (DT that))
+      (VP (VBZ 's)
+        (ADVP (RB very) (RB kind))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP we))
+      (VP (MD can)
+        (VP (VB make)
+          (NP (PRP$ our) (JJ own) (NN way)))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, 's-2)
+nsubj('s-2, that-1)
+advmod(kind-4, very-3)
+advmod('s-2, kind-4)
+punct('s-2, ,-5)
+cc('s-2, but-6)
+nsubj(make-9, we-7)
+aux(make-9, can-8)
+conj:but('s-2, make-9)
+nmod:poss(way-12, our-10)
+amod(way-12, own-11)
+dobj(make-9, way-12)
+punct('s-2, .-13)
+
+Sentence #10 (13 tokens):
+that 's very generous , but we 'll go our own way .
+
+Tokens:
+[Text=that CharacterOffsetBegin=756 CharacterOffsetEnd=760 PartOfSpeech=DT]
+[Text='s CharacterOffsetBegin=761 CharacterOffsetEnd=763 PartOfSpeech=VBZ]
+[Text=very CharacterOffsetBegin=764 CharacterOffsetEnd=768 PartOfSpeech=RB]
+[Text=generous CharacterOffsetBegin=769 CharacterOffsetEnd=777 PartOfSpeech=JJ]
+[Text=, CharacterOffsetBegin=778 CharacterOffsetEnd=779 PartOfSpeech=,]
+[Text=but CharacterOffsetBegin=780 CharacterOffsetEnd=783 PartOfSpeech=CC]
+[Text=we CharacterOffsetBegin=784 CharacterOffsetEnd=786 PartOfSpeech=PRP]
+[Text='ll CharacterOffsetBegin=787 CharacterOffsetEnd=790 PartOfSpeech=MD]
+[Text=go CharacterOffsetBegin=791 CharacterOffsetEnd=793 PartOfSpeech=VB]
+[Text=our CharacterOffsetBegin=794 CharacterOffsetEnd=797 PartOfSpeech=PRP$]
+[Text=own CharacterOffsetBegin=798 CharacterOffsetEnd=801 PartOfSpeech=JJ]
+[Text=way CharacterOffsetBegin=802 CharacterOffsetEnd=805 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=806 CharacterOffsetEnd=807 PartOfSpeech=.]
+
+Constituency parse:
+(ROOT
+  (S
+    (S
+      (NP (DT that))
+      (VP (VBZ 's)
+        (ADJP (RB very) (JJ generous))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP we))
+      (VP (MD 'll)
+        (VP (VB go)
+          (NP (PRP$ our) (JJ own) (NN way)))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, generous-4)
+nsubj(generous-4, that-1)
+cop(generous-4, 's-2)
+advmod(generous-4, very-3)
+punct(generous-4, ,-5)
+cc(generous-4, but-6)
+nsubj(go-9, we-7)
+aux(go-9, 'll-8)
+conj:but(generous-4, go-9)
+nmod:poss(way-12, our-10)
+amod(way-12, own-11)
+dobj(go-9, way-12)
+punct(generous-4, .-13)
+
+Sentence #11 (9 tokens):
+i left you four messages . you okay ?
+
+Tokens:
+[Text=i CharacterOffsetBegin=808 CharacterOffsetEnd=809 PartOfSpeech=LS]
+[Text=left CharacterOffsetBegin=810 CharacterOffsetEnd=814 PartOfSpeech=VBD]
+[Text=you CharacterOffsetBegin=815 CharacterOffsetEnd=818 PartOfSpeech=PRP]
+[Text=four CharacterOffsetBegin=819 CharacterOffsetEnd=823 PartOfSpeech=CD]
+[Text=messages CharacterOffsetBegin=824 CharacterOffsetEnd=832 PartOfSpeech=NNS]
+[Text=. CharacterOffsetBegin=833 CharacterOffsetEnd=834 PartOfSpeech=.]
+[Text=you CharacterOffsetBegin=835 CharacterOffsetEnd=838 PartOfSpeech=PRP]
+[Text=okay CharacterOffsetBegin=839 CharacterOffsetEnd=843 PartOfSpeech=JJ]
+[Text=? CharacterOffsetBegin=844 CharacterOffsetEnd=845 PartOfSpeech=.]
+
+Constituency parse:
+(ROOT
+  (NP
+    (NP
+      (NP
+        (NP (LS i))
+        (SBAR
+          (S
+            (VP (VBD left)
+              (NP (PRP you))
+              (NP-TMP (CD four) (NNS messages))))))
+      (. .)
+      (NP
+        (NP (PRP you))
+        (ADJP (JJ okay))))
+    (. ?)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, i-1)
+acl:relcl(i-1, left-2)
+dobj(left-2, you-3)
+nummod(messages-5, four-4)
+nmod:tmod(left-2, messages-5)
+punct(i-1, .-6)
+dep(i-1, you-7)
+amod(you-7, okay-8)
+punct(i-1, ?-9)
+
+Sentence #12 (7 tokens):
+hey , i left four messages .
+
+Tokens:
+[Text=hey CharacterOffsetBegin=846 CharacterOffsetEnd=849 PartOfSpeech=NN]
+[Text=, CharacterOffsetBegin=850 CharacterOffsetEnd=851 PartOfSpeech=,]
+[Text=i CharacterOffsetBegin=852 CharacterOffsetEnd=853 PartOfSpeech=FW]
+[Text=left CharacterOffsetBegin=854 CharacterOffsetEnd=858 PartOfSpeech=VBD]
+[Text=four CharacterOffsetBegin=859 CharacterOffsetEnd=863 PartOfSpeech=CD]
+[Text=messages CharacterOffsetBegin=864 CharacterOffsetEnd=872 PartOfSpeech=NNS]
+[Text=. CharacterOffsetBegin=873 CharacterOffsetEnd=874 PartOfSpeech=.]
+
+Constituency parse:
+(ROOT
+  (S
+    (NP
+      (NP (NN hey))
+      (, ,)
+      (NP (FW i)))
+    (VP (VBD left)
+      (NP (CD four) (NNS messages)))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, left-4)
+nsubj(left-4, hey-1)
+punct(hey-1, ,-2)
+appos(hey-1, i-3)
+nummod(messages-6, four-5)
+dobj(left-4, messages-6)
+punct(left-4, .-7)
+
+Sentence #13 (16 tokens):
+the minimum sizes for short-necked clam should be revised in the light of biological data .
+
+Tokens:
+[Text=the CharacterOffsetBegin=875 CharacterOffsetEnd=878 PartOfSpeech=DT]
+[Text=minimum CharacterOffsetBegin=879 CharacterOffsetEnd=886 PartOfSpeech=NN]
+[Text=sizes CharacterOffsetBegin=887 CharacterOffsetEnd=892 PartOfSpeech=NNS]
+[Text=for CharacterOffsetBegin=893 CharacterOffsetEnd=896 PartOfSpeech=IN]
+[Text=short-necked CharacterOffsetBegin=897 CharacterOffsetEnd=909 PartOfSpeech=JJ]
+[Text=clam CharacterOffsetBegin=910 CharacterOffsetEnd=914 PartOfSpeech=NN]
+[Text=should CharacterOffsetBegin=915 CharacterOffsetEnd=921 PartOfSpeech=MD]
+[Text=be CharacterOffsetBegin=922 CharacterOffsetEnd=924 PartOfSpeech=VB]
+[Text=revised CharacterOffsetBegin=925 CharacterOffsetEnd=932 PartOfSpeech=VBN]
+[Text=in CharacterOffsetBegin=933 CharacterOffsetEnd=935 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=936 CharacterOffsetEnd=939 PartOfSpeech=DT]
+[Text=light CharacterOffsetBegin=940 CharacterOffsetEnd=945 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=946 CharacterOffsetEnd=948 PartOfSpeech=IN]
+[Text=biological CharacterOffsetBegin=949 CharacterOffsetEnd=959 PartOfSpeech=JJ]
+[Text=data CharacterOffsetBegin=960 CharacterOffsetEnd=964 PartOfSpeech=NNS]
+[Text=. CharacterOffsetBegin=965 CharacterOffsetEnd=966 PartOfSpeech=.]
+
+Constituency parse:
+(ROOT
+  (S
+    (NP
+      (NP (DT the) (NN minimum) (NNS sizes))
+      (PP (IN for)
+        (NP (JJ short-necked) (NN clam))))
+    (VP (MD should)
+      (VP (VB be)
+        (VP (VBN revised)
+          (PP (IN in)
+            (NP
+              (NP (DT the) (NN light))
+              (PP (IN of)
+                (NP (JJ biological) (NNS data))))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, revised-9)
+det(sizes-3, the-1)
+compound(sizes-3, minimum-2)
+nsubjpass(revised-9, sizes-3)
+case(clam-6, for-4)
+amod(clam-6, short-necked-5)
+nmod:for(sizes-3, clam-6)
+aux(revised-9, should-7)
+auxpass(revised-9, be-8)
+case(light-12, in-10)
+det(light-12, the-11)
+nmod:in(revised-9, light-12)
+case(data-15, of-13)
+amod(data-15, biological-14)
+nmod:of(light-12, data-15)
+punct(revised-9, .-16)
+
+Sentence #14 (17 tokens):
+in view of the biological data , the minimum size of the filibuster should be amended .
+
+Tokens:
+[Text=in CharacterOffsetBegin=967 CharacterOffsetEnd=969 PartOfSpeech=IN]
+[Text=view CharacterOffsetBegin=970 CharacterOffsetEnd=974 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=975 CharacterOffsetEnd=977 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=978 CharacterOffsetEnd=981 PartOfSpeech=DT]
+[Text=biological CharacterOffsetBegin=982 CharacterOffsetEnd=992 PartOfSpeech=JJ]
+[Text=data CharacterOffsetBegin=993 CharacterOffsetEnd=997 PartOfSpeech=NNS]
+[Text=, CharacterOffsetBegin=998 CharacterOffsetEnd=999 PartOfSpeech=,]
+[Text=the CharacterOffsetBegin=1000 CharacterOffsetEnd=1003 PartOfSpeech=DT]
+[Text=minimum CharacterOffsetBegin=1004 CharacterOffsetEnd=1011 PartOfSpeech=JJ]
+[Text=size CharacterOffsetBegin=1012 CharacterOffsetEnd=1016 PartOfSpeech=NN]
+[Text=of CharacterOffsetBegin=1017 CharacterOffsetEnd=1019 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=1020 CharacterOffsetEnd=1023 PartOfSpeech=DT]
+[Text=filibuster CharacterOffsetBegin=1024 CharacterOffsetEnd=1034 PartOfSpeech=NN]
+[Text=should CharacterOffsetBegin=1035 CharacterOffsetEnd=1041 PartOfSpeech=MD]
+[Text=be CharacterOffsetBegin=1042 CharacterOffsetEnd=1044 PartOfSpeech=VB]
+[Text=amended CharacterOffsetBegin=1045 CharacterOffsetEnd=1052 PartOfSpeech=VBN]
+[Text=. CharacterOffsetBegin=1053 CharacterOffsetEnd=1054 PartOfSpeech=.]
+
+Constituency parse:
+(ROOT
+  (S
+    (PP (IN in)
+      (NP
+        (NP (NN view))
+        (PP (IN of)
+          (NP (DT the) (JJ biological) (NNS data)))))
+    (, ,)
+    (NP
+      (NP (DT the) (JJ minimum) (NN size))
+      (PP (IN of)
+        (NP (DT the) (NN filibuster))))
+    (VP (MD should)
+      (VP (VB be)
+        (ADJP (VBN amended))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, amended-16)
+case(view-2, in-1)
+nmod:in(amended-16, view-2)
+case(data-6, of-3)
+det(data-6, the-4)
+amod(data-6, biological-5)
+nmod:of(view-2, data-6)
+punct(amended-16, ,-7)
+det(size-10, the-8)
+amod(size-10, minimum-9)
+nsubjpass(amended-16, size-10)
+case(filibuster-13, of-11)
+det(filibuster-13, the-12)
+nmod:of(size-10, filibuster-13)
+aux(amended-16, should-14)
+auxpass(amended-16, be-15)
+punct(amended-16, .-17)
+
+Sentence #15 (25 tokens):
+well , take your shortcut , and i 'll take the long way . but you 'd better be there - before i arrive .
+
+Tokens:
+[Text=well CharacterOffsetBegin=1055 CharacterOffsetEnd=1059 PartOfSpeech=RB]
+[Text=, CharacterOffsetBegin=1060 CharacterOffsetEnd=1061 PartOfSpeech=,]
+[Text=take CharacterOffsetBegin=1062 CharacterOffsetEnd=1066 PartOfSpeech=VB]
+[Text=your CharacterOffsetBegin=1067 CharacterOffsetEnd=1071 PartOfSpeech=PRP$]
+[Text=shortcut CharacterOffsetBegin=1072 CharacterOffsetEnd=1080 PartOfSpeech=NN]
+[Text=, CharacterOffsetBegin=1081 CharacterOffsetEnd=1082 PartOfSpeech=,]
+[Text=and CharacterOffsetBegin=1083 CharacterOffsetEnd=1086 PartOfSpeech=CC]
+[Text=i CharacterOffsetBegin=1087 CharacterOffsetEnd=1088 PartOfSpeech=FW]
+[Text='ll CharacterOffsetBegin=1089 CharacterOffsetEnd=1092 PartOfSpeech=MD]
+[Text=take CharacterOffsetBegin=1093 CharacterOffsetEnd=1097 PartOfSpeech=VB]
+[Text=the CharacterOffsetBegin=1098 CharacterOffsetEnd=1101 PartOfSpeech=DT]
+[Text=long CharacterOffsetBegin=1102 CharacterOffsetEnd=1106 PartOfSpeech=JJ]
+[Text=way CharacterOffsetBegin=1107 CharacterOffsetEnd=1110 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=1111 CharacterOffsetEnd=1112 PartOfSpeech=.]
+[Text=but CharacterOffsetBegin=1113 CharacterOffsetEnd=1116 PartOfSpeech=CC]
+[Text=you CharacterOffsetBegin=1117 CharacterOffsetEnd=1120 PartOfSpeech=PRP]
+[Text='d CharacterOffsetBegin=1121 CharacterOffsetEnd=1123 PartOfSpeech=MD]
+[Text=better CharacterOffsetBegin=1124 CharacterOffsetEnd=1130 PartOfSpeech=RB]
+[Text=be CharacterOffsetBegin=1131 CharacterOffsetEnd=1133 PartOfSpeech=VB]
+[Text=there CharacterOffsetBegin=1134 CharacterOffsetEnd=1139 PartOfSpeech=RB]
+[Text=- CharacterOffsetBegin=1140 CharacterOffsetEnd=1141 PartOfSpeech=:]
+[Text=before CharacterOffsetBegin=1142 CharacterOffsetEnd=1148 PartOfSpeech=IN]
+[Text=i CharacterOffsetBegin=1149 CharacterOffsetEnd=1150 PartOfSpeech=FW]
+[Text=arrive CharacterOffsetBegin=1151 CharacterOffsetEnd=1157 PartOfSpeech=VBP]
+[Text=. CharacterOffsetBegin=1158 CharacterOffsetEnd=1159 PartOfSpeech=.]
+
+Constituency parse:
+(ROOT
+  (S
+    (S
+      (INTJ (RB well))
+      (, ,)
+      (VP (VB take)
+        (NP (PRP$ your) (NN shortcut))))
+    (, ,)
+    (CC and)
+    (S
+      (S
+        (NP (FW i))
+        (VP (MD 'll)
+          (VP (VB take)
+            (NP (DT the) (JJ long) (NN way))))
+        (. .))
+      (CC but)
+      (S
+        (NP (PRP you))
+        (VP (MD 'd)
+          (ADVP (RB better))
+          (VP (VB be)
+            (NP (RB there))
+            (: -)
+            (SBAR (IN before)
+              (S
+                (NP (FW i))
+                (VP (VBP arrive))))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, take-3)
+discourse(take-3, well-1)
+punct(take-3, ,-2)
+nmod:poss(shortcut-5, your-4)
+dobj(take-3, shortcut-5)
+punct(take-3, ,-6)
+cc(take-3, and-7)
+nsubj(take-10, i-8)
+aux(take-10, 'll-9)
+conj:and(take-3, take-10)
+det(way-13, the-11)
+amod(way-13, long-12)
+dobj(take-10, way-13)
+punct(take-10, .-14)
+cc(take-10, but-15)
+nsubj(there-20, you-16)
+aux(there-20, 'd-17)
+advmod(there-20, better-18)
+cop(there-20, be-19)
+conj:and(take-3, there-20)
+conj:but(take-10, there-20)
+punct(there-20, --21)
+mark(arrive-24, before-22)
+nsubj(arrive-24, i-23)
+advcl:before(there-20, arrive-24)
+punct(take-3, .-25)
+
+Sentence #16 (23 tokens):
+so , take the shortcut , and i 'll take a detour , but you better be there before i get there .
+
+Tokens:
+[Text=so CharacterOffsetBegin=1160 CharacterOffsetEnd=1162 PartOfSpeech=RB]
+[Text=, CharacterOffsetBegin=1163 CharacterOffsetEnd=1164 PartOfSpeech=,]
+[Text=take CharacterOffsetBegin=1165 CharacterOffsetEnd=1169 PartOfSpeech=VB]
+[Text=the CharacterOffsetBegin=1170 CharacterOffsetEnd=1173 PartOfSpeech=DT]
+[Text=shortcut CharacterOffsetBegin=1174 CharacterOffsetEnd=1182 PartOfSpeech=NN]
+[Text=, CharacterOffsetBegin=1183 CharacterOffsetEnd=1184 PartOfSpeech=,]
+[Text=and CharacterOffsetBegin=1185 CharacterOffsetEnd=1188 PartOfSpeech=CC]
+[Text=i CharacterOffsetBegin=1189 CharacterOffsetEnd=1190 PartOfSpeech=FW]
+[Text='ll CharacterOffsetBegin=1191 CharacterOffsetEnd=1194 PartOfSpeech=MD]
+[Text=take CharacterOffsetBegin=1195 CharacterOffsetEnd=1199 PartOfSpeech=VB]
+[Text=a CharacterOffsetBegin=1200 CharacterOffsetEnd=1201 PartOfSpeech=DT]
+[Text=detour CharacterOffsetBegin=1202 CharacterOffsetEnd=1208 PartOfSpeech=NN]
+[Text=, CharacterOffsetBegin=1209 CharacterOffsetEnd=1210 PartOfSpeech=,]
+[Text=but CharacterOffsetBegin=1211 CharacterOffsetEnd=1214 PartOfSpeech=CC]
+[Text=you CharacterOffsetBegin=1215 CharacterOffsetEnd=1218 PartOfSpeech=PRP]
+[Text=better CharacterOffsetBegin=1219 CharacterOffsetEnd=1225 PartOfSpeech=RB]
+[Text=be CharacterOffsetBegin=1226 CharacterOffsetEnd=1228 PartOfSpeech=VB]
+[Text=there CharacterOffsetBegin=1229 CharacterOffsetEnd=1234 PartOfSpeech=RB]
+[Text=before CharacterOffsetBegin=1235 CharacterOffsetEnd=1241 PartOfSpeech=IN]
+[Text=i CharacterOffsetBegin=1242 CharacterOffsetEnd=1243 PartOfSpeech=FW]
+[Text=get CharacterOffsetBegin=1244 CharacterOffsetEnd=1247 PartOfSpeech=VB]
+[Text=there CharacterOffsetBegin=1248 CharacterOffsetEnd=1253 PartOfSpeech=RB]
+[Text=. CharacterOffsetBegin=1254 CharacterOffsetEnd=1255 PartOfSpeech=.]
+
+Constituency parse:
+(ROOT
+  (S
+    (ADVP (RB so))
+    (, ,)
+    (S
+      (S
+        (VP (VB take)
+          (NP (DT the) (NN shortcut))))
+      (, ,)
+      (CC and)
+      (S
+        (NP (FW i))
+        (VP (MD 'll)
+          (VP (VB take)
+            (NP (DT a) (NN detour))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP you))
+      (ADVP (RB better))
+      (VP (VB be)
+        (PP
+          (ADVP (RB there))
+          (IN before)
+          (NP (FW i)))
+        (S
+          (VP (VB get)
+            (ADVP (RB there))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, take-3)
+advmod(take-3, so-1)
+punct(take-3, ,-2)
+det(shortcut-5, the-4)
+dobj(take-3, shortcut-5)
+punct(take-3, ,-6)
+cc(take-3, and-7)
+nsubj(take-10, i-8)
+aux(take-10, 'll-9)
+conj:and(take-3, take-10)
+det(detour-12, a-11)
+dobj(take-10, detour-12)
+punct(take-3, ,-13)
+cc(take-3, but-14)
+nsubj(i-20, you-15)
+advmod(i-20, better-16)
+cop(i-20, be-17)
+advmod(i-20, there-18)
+case(i-20, before-19)
+conj:and(take-3, i-20)
+ccomp(i-20, get-21)
+advmod(get-21, there-22)
+punct(take-3, .-23)
+
+Sentence #17 (15 tokens):
+back then , liet had been terrified , but he had completed the ordeal .
+
+Tokens:
+[Text=back CharacterOffsetBegin=1256 CharacterOffsetEnd=1260 PartOfSpeech=RB]
+[Text=then CharacterOffsetBegin=1261 CharacterOffsetEnd=1265 PartOfSpeech=RB]
+[Text=, CharacterOffsetBegin=1266 CharacterOffsetEnd=1267 PartOfSpeech=,]
+[Text=liet CharacterOffsetBegin=1268 CharacterOffsetEnd=1272 PartOfSpeech=NN]
+[Text=had CharacterOffsetBegin=1273 CharacterOffsetEnd=1276 PartOfSpeech=VBD]
+[Text=been CharacterOffsetBegin=1277 CharacterOffsetEnd=1281 PartOfSpeech=VBN]
+[Text=terrified CharacterOffsetBegin=1282 CharacterOffsetEnd=1291 PartOfSpeech=VBN]
+[Text=, CharacterOffsetBegin=1292 CharacterOffsetEnd=1293 PartOfSpeech=,]
+[Text=but CharacterOffsetBegin=1294 CharacterOffsetEnd=1297 PartOfSpeech=CC]
+[Text=he CharacterOffsetBegin=1298 CharacterOffsetEnd=1300 PartOfSpeech=PRP]
+[Text=had CharacterOffsetBegin=1301 CharacterOffsetEnd=1304 PartOfSpeech=VBD]
+[Text=completed CharacterOffsetBegin=1305 CharacterOffsetEnd=1314 PartOfSpeech=VBN]
+[Text=the CharacterOffsetBegin=1315 CharacterOffsetEnd=1318 PartOfSpeech=DT]
+[Text=ordeal CharacterOffsetBegin=1319 CharacterOffsetEnd=1325 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=1326 CharacterOffsetEnd=1327 PartOfSpeech=.]
+
+Constituency parse:
+(ROOT
+  (S
+    (S
+      (ADVP (RB back) (RB then))
+      (, ,)
+      (NP (NN liet))
+      (VP (VBD had)
+        (VP (VBN been)
+          (VP (VBN terrified)))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP he))
+      (VP (VBD had)
+        (VP (VBN completed)
+          (NP (DT the) (NN ordeal)))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, terrified-7)
+advmod(then-2, back-1)
+advmod(terrified-7, then-2)
+punct(terrified-7, ,-3)
+nsubjpass(terrified-7, liet-4)
+aux(terrified-7, had-5)
+auxpass(terrified-7, been-6)
+punct(terrified-7, ,-8)
+cc(terrified-7, but-9)
+nsubj(completed-12, he-10)
+aux(completed-12, had-11)
+conj:but(terrified-7, completed-12)
+det(ordeal-14, the-13)
+dobj(completed-12, ordeal-14)
+punct(terrified-7, .-15)
+
+Sentence #18 (13 tokens):
+then liet was frightened , but he carried out his hard task .
+
+Tokens:
+[Text=then CharacterOffsetBegin=1328 CharacterOffsetEnd=1332 PartOfSpeech=RB]
+[Text=liet CharacterOffsetBegin=1333 CharacterOffsetEnd=1337 PartOfSpeech=NN]
+[Text=was CharacterOffsetBegin=1338 CharacterOffsetEnd=1341 PartOfSpeech=VBD]
+[Text=frightened CharacterOffsetBegin=1342 CharacterOffsetEnd=1352 PartOfSpeech=VBN]
+[Text=, CharacterOffsetBegin=1353 CharacterOffsetEnd=1354 PartOfSpeech=,]
+[Text=but CharacterOffsetBegin=1355 CharacterOffsetEnd=1358 PartOfSpeech=CC]
+[Text=he CharacterOffsetBegin=1359 CharacterOffsetEnd=1361 PartOfSpeech=PRP]
+[Text=carried CharacterOffsetBegin=1362 CharacterOffsetEnd=1369 PartOfSpeech=VBD]
+[Text=out CharacterOffsetBegin=1370 CharacterOffsetEnd=1373 PartOfSpeech=RP]
+[Text=his CharacterOffsetBegin=1374 CharacterOffsetEnd=1377 PartOfSpeech=PRP$]
+[Text=hard CharacterOffsetBegin=1378 CharacterOffsetEnd=1382 PartOfSpeech=JJ]
+[Text=task CharacterOffsetBegin=1383 CharacterOffsetEnd=1387 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=1388 CharacterOffsetEnd=1389 PartOfSpeech=.]
+
+Constituency parse:
+(ROOT
+  (S
+    (S
+      (ADVP (RB then))
+      (NP (NN liet))
+      (VP (VBD was)
+        (ADJP (VBN frightened))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP he))
+      (VP (VBD carried)
+        (PRT (RP out))
+        (NP (PRP$ his) (JJ hard) (NN task))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, frightened-4)
+advmod(frightened-4, then-1)
+nsubjpass(frightened-4, liet-2)
+auxpass(frightened-4, was-3)
+punct(frightened-4, ,-5)
+cc(frightened-4, but-6)
+nsubj(carried-8, he-7)
+conj:but(frightened-4, carried-8)
+compound:prt(carried-8, out-9)
+nmod:poss(task-12, his-10)
+amod(task-12, hard-11)
+dobj(carried-8, task-12)
+punct(frightened-4, .-13)
+
+Sentence #19 (11 tokens):
+and then will come the powers of the malazan empire .
+
+Tokens:
+[Text=and CharacterOffsetBegin=1390 CharacterOffsetEnd=1393 PartOfSpeech=CC]
+[Text=then CharacterOffsetBegin=1394 CharacterOffsetEnd=1398 PartOfSpeech=RB]
+[Text=will CharacterOffsetBegin=1399 CharacterOffsetEnd=1403 PartOfSpeech=MD]
+[Text=come CharacterOffsetBegin=1404 CharacterOffsetEnd=1408 PartOfSpeech=VB]
+[Text=the CharacterOffsetBegin=1409 CharacterOffsetEnd=1412 PartOfSpeech=DT]
+[Text=powers CharacterOffsetBegin=1413 CharacterOffsetEnd=1419 PartOfSpeech=NNS]
+[Text=of CharacterOffsetBegin=1420 CharacterOffsetEnd=1422 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=1423 CharacterOffsetEnd=1426 PartOfSpeech=DT]
+[Text=malazan CharacterOffsetBegin=1427 CharacterOffsetEnd=1434 PartOfSpeech=JJ]
+[Text=empire CharacterOffsetBegin=1435 CharacterOffsetEnd=1441 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=1442 CharacterOffsetEnd=1443 PartOfSpeech=.]
+
+Constituency parse:
+(ROOT
+  (S (CC and)
+    (RB then)
+    (VP (MD will)
+      (VP (VB come)
+        (NP
+          (NP (DT the) (NNS powers))
+          (PP (IN of)
+            (NP (DT the) (JJ malazan) (NN empire))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, come-4)
+cc(come-4, and-1)
+advmod(come-4, then-2)
+aux(come-4, will-3)
+det(powers-6, the-5)
+dobj(come-4, powers-6)
+case(empire-10, of-7)
+det(empire-10, the-8)
+amod(empire-10, malazan-9)
+nmod:of(powers-6, empire-10)
+punct(come-4, .-11)
+
+Sentence #20 (10 tokens):
+then the forces of the malazan empire will come .
+
+Tokens:
+[Text=then CharacterOffsetBegin=1444 CharacterOffsetEnd=1448 PartOfSpeech=RB]
+[Text=the CharacterOffsetBegin=1449 CharacterOffsetEnd=1452 PartOfSpeech=DT]
+[Text=forces CharacterOffsetBegin=1453 CharacterOffsetEnd=1459 PartOfSpeech=NNS]
+[Text=of CharacterOffsetBegin=1460 CharacterOffsetEnd=1462 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=1463 CharacterOffsetEnd=1466 PartOfSpeech=DT]
+[Text=malazan CharacterOffsetBegin=1467 CharacterOffsetEnd=1474 PartOfSpeech=JJ]
+[Text=empire CharacterOffsetBegin=1475 CharacterOffsetEnd=1481 PartOfSpeech=NN]
+[Text=will CharacterOffsetBegin=1482 CharacterOffsetEnd=1486 PartOfSpeech=MD]
+[Text=come CharacterOffsetBegin=1487 CharacterOffsetEnd=1491 PartOfSpeech=VB]
+[Text=. CharacterOffsetBegin=1492 CharacterOffsetEnd=1493 PartOfSpeech=.]
+
+Constituency parse:
+(ROOT
+  (S
+    (ADVP (RB then))
+    (NP
+      (NP (DT the) (NNS forces))
+      (PP (IN of)
+        (NP (DT the) (JJ malazan) (NN empire))))
+    (VP (MD will)
+      (VP (VB come)))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, come-9)
+advmod(come-9, then-1)
+det(forces-3, the-2)
+nsubj(come-9, forces-3)
+case(empire-7, of-4)
+det(empire-7, the-5)
+amod(empire-7, malazan-6)
+nmod:of(forces-3, empire-7)
+aux(come-9, will-8)
+punct(come-9, .-10)
+
+Sentence #21 (12 tokens):
+3.1.3 labour market policy measures to accompany economic revival are key .
+
+Tokens:
+[Text=3.1.3 CharacterOffsetBegin=1494 CharacterOffsetEnd=1499 PartOfSpeech=CD]
+[Text=labour CharacterOffsetBegin=1500 CharacterOffsetEnd=1506 PartOfSpeech=NN]
+[Text=market CharacterOffsetBegin=1507 CharacterOffsetEnd=1513 PartOfSpeech=NN]
+[Text=policy CharacterOffsetBegin=1514 CharacterOffsetEnd=1520 PartOfSpeech=NN]
+[Text=measures CharacterOffsetBegin=1521 CharacterOffsetEnd=1529 PartOfSpeech=NNS]
+[Text=to CharacterOffsetBegin=1530 CharacterOffsetEnd=1532 PartOfSpeech=TO]
+[Text=accompany CharacterOffsetBegin=1533 CharacterOffsetEnd=1542 PartOfSpeech=VB]
+[Text=economic CharacterOffsetBegin=1543 CharacterOffsetEnd=1551 PartOfSpeech=JJ]
+[Text=revival CharacterOffsetBegin=1552 CharacterOffsetEnd=1559 PartOfSpeech=NN]
+[Text=are CharacterOffsetBegin=1560 CharacterOffsetEnd=1563 PartOfSpeech=VBP]
+[Text=key CharacterOffsetBegin=1564 CharacterOffsetEnd=1567 PartOfSpeech=JJ]
+[Text=. CharacterOffsetBegin=1568 CharacterOffsetEnd=1569 PartOfSpeech=.]
+
+Constituency parse:
+(ROOT
+  (S
+    (NP
+      (NP (CD 3.1.3) (NN labour) (NN market) (NN policy) (NNS measures))
+      (SBAR
+        (S
+          (VP (TO to)
+            (VP (VB accompany)
+              (NP (JJ economic) (NN revival)))))))
+    (VP (VBP are)
+      (ADJP (JJ key)))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, key-11)
+nummod(measures-5, 3.1.3-1)
+compound(measures-5, labour-2)
+compound(measures-5, market-3)
+compound(measures-5, policy-4)
+nsubj(key-11, measures-5)
+mark(accompany-7, to-6)
+acl:to(measures-5, accompany-7)
+amod(revival-9, economic-8)
+dobj(accompany-7, revival-9)
+cop(key-11, are-10)
+punct(key-11, .-12)
+
+Sentence #22 (14 tokens):
+in addition to reviving economic developments , measures concerning labor-market policies are essential .
+
+Tokens:
+[Text=in CharacterOffsetBegin=1570 CharacterOffsetEnd=1572 PartOfSpeech=IN]
+[Text=addition CharacterOffsetBegin=1573 CharacterOffsetEnd=1581 PartOfSpeech=NN]
+[Text=to CharacterOffsetBegin=1582 CharacterOffsetEnd=1584 PartOfSpeech=TO]
+[Text=reviving CharacterOffsetBegin=1585 CharacterOffsetEnd=1593 PartOfSpeech=VBG]
+[Text=economic CharacterOffsetBegin=1594 CharacterOffsetEnd=1602 PartOfSpeech=JJ]
+[Text=developments CharacterOffsetBegin=1603 CharacterOffsetEnd=1615 PartOfSpeech=NNS]
+[Text=, CharacterOffsetBegin=1616 CharacterOffsetEnd=1617 PartOfSpeech=,]
+[Text=measures CharacterOffsetBegin=1618 CharacterOffsetEnd=1626 PartOfSpeech=NNS]
+[Text=concerning CharacterOffsetBegin=1627 CharacterOffsetEnd=1637 PartOfSpeech=VBG]
+[Text=labor-market CharacterOffsetBegin=1638 CharacterOffsetEnd=1650 PartOfSpeech=JJ]
+[Text=policies CharacterOffsetBegin=1651 CharacterOffsetEnd=1659 PartOfSpeech=NNS]
+[Text=are CharacterOffsetBegin=1660 CharacterOffsetEnd=1663 PartOfSpeech=VBP]
+[Text=essential CharacterOffsetBegin=1664 CharacterOffsetEnd=1673 PartOfSpeech=JJ]
+[Text=. CharacterOffsetBegin=1674 CharacterOffsetEnd=1675 PartOfSpeech=.]
+
+Constituency parse:
+(ROOT
+  (S
+    (PP (IN in)
+      (NP
+        (NP (NN addition))
+        (PP (TO to)
+          (S
+            (VP (VBG reviving)
+              (NP (JJ economic) (NNS developments)))))))
+    (, ,)
+    (NP
+      (NP (NNS measures))
+      (PP (VBG concerning)
+        (NP (JJ labor-market) (NNS policies))))
+    (VP (VBP are)
+      (ADJP (JJ essential)))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, essential-13)
+mark(reviving-4, in-1)
+mwe(in-1, addition-2)
+mwe(in-1, to-3)
+acl:in_addition_to(essential-13, reviving-4)
+amod(developments-6, economic-5)
+dobj(reviving-4, developments-6)
+punct(essential-13, ,-7)
+nsubj(essential-13, measures-8)
+case(policies-11, concerning-9)
+amod(policies-11, labor-market-10)
+nmod:concerning(measures-8, policies-11)
+cop(essential-13, are-12)
+punct(essential-13, .-14)
+
+Sentence #23 (10 tokens):
+maine was very short on black people back then .
+
+Tokens:
+[Text=maine CharacterOffsetBegin=1676 CharacterOffsetEnd=1681 PartOfSpeech=NN]
+[Text=was CharacterOffsetBegin=1682 CharacterOffsetEnd=1685 PartOfSpeech=VBD]
+[Text=very CharacterOffsetBegin=1686 CharacterOffsetEnd=1690 PartOfSpeech=RB]
+[Text=short CharacterOffsetBegin=1691 CharacterOffsetEnd=1696 PartOfSpeech=JJ]
+[Text=on CharacterOffsetBegin=1697 CharacterOffsetEnd=1699 PartOfSpeech=IN]
+[Text=black CharacterOffsetBegin=1700 CharacterOffsetEnd=1705 PartOfSpeech=JJ]
+[Text=people CharacterOffsetBegin=1706 CharacterOffsetEnd=1712 PartOfSpeech=NNS]
+[Text=back CharacterOffsetBegin=1713 CharacterOffsetEnd=1717 PartOfSpeech=RB]
+[Text=then CharacterOffsetBegin=1718 CharacterOffsetEnd=1722 PartOfSpeech=RB]
+[Text=. CharacterOffsetBegin=1723 CharacterOffsetEnd=1724 PartOfSpeech=.]
+
+Constituency parse:
+(ROOT
+  (S
+    (NP (NN maine))
+    (VP (VBD was)
+      (ADJP (RB very) (JJ short)
+        (PP (IN on)
+          (NP (JJ black) (NNS people))))
+      (ADVP (RB back) (RB then)))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, short-4)
+nsubj(short-4, maine-1)
+cop(short-4, was-2)
+advmod(short-4, very-3)
+case(people-7, on-5)
+amod(people-7, black-6)
+nmod:on(short-4, people-7)
+advmod(then-9, back-8)
+advmod(short-4, then-9)
+punct(short-4, .-10)
+
+Sentence #24 (9 tokens):
+there was n't much black in maine then .
+
+Tokens:
+[Text=there CharacterOffsetBegin=1725 CharacterOffsetEnd=1730 PartOfSpeech=EX]
+[Text=was CharacterOffsetBegin=1731 CharacterOffsetEnd=1734 PartOfSpeech=VBD]
+[Text=n't CharacterOffsetBegin=1735 CharacterOffsetEnd=1738 PartOfSpeech=RB]
+[Text=much CharacterOffsetBegin=1739 CharacterOffsetEnd=1743 PartOfSpeech=JJ]
+[Text=black CharacterOffsetBegin=1744 CharacterOffsetEnd=1749 PartOfSpeech=JJ]
+[Text=in CharacterOffsetBegin=1750 CharacterOffsetEnd=1752 PartOfSpeech=IN]
+[Text=maine CharacterOffsetBegin=1753 CharacterOffsetEnd=1758 PartOfSpeech=NN]
+[Text=then CharacterOffsetBegin=1759 CharacterOffsetEnd=1763 PartOfSpeech=RB]
+[Text=. CharacterOffsetBegin=1764 CharacterOffsetEnd=1765 PartOfSpeech=.]
+
+Constituency parse:
+(ROOT
+  (S
+    (NP (EX there))
+    (VP (VBD was) (RB n't)
+      (ADVP (JJ much))
+      (ADJP (JJ black)
+        (PP (IN in)
+          (NP
+            (NP (NN maine))
+            (ADVP (RB then))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, was-2)
+expl(was-2, there-1)
+neg(was-2, n't-3)
+advmod(was-2, much-4)
+xcomp(was-2, black-5)
+case(maine-7, in-6)
+nmod:in(black-5, maine-7)
+advmod(maine-7, then-8)
+punct(was-2, .-9)
+
+Sentence #25 (23 tokens):
+the commission , in accordance with the procedure laid down in article 5 , shall determine the appropriate forms for such certification .
+
+Tokens:
+[Text=the CharacterOffsetBegin=1766 CharacterOffsetEnd=1769 PartOfSpeech=DT]
+[Text=commission CharacterOffsetBegin=1770 CharacterOffsetEnd=1780 PartOfSpeech=NN]
+[Text=, CharacterOffsetBegin=1781 CharacterOffsetEnd=1782 PartOfSpeech=,]
+[Text=in CharacterOffsetBegin=1783 CharacterOffsetEnd=1785 PartOfSpeech=IN]
+[Text=accordance CharacterOffsetBegin=1786 CharacterOffsetEnd=1796 PartOfSpeech=NN]
+[Text=with CharacterOffsetBegin=1797 CharacterOffsetEnd=1801 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=1802 CharacterOffsetEnd=1805 PartOfSpeech=DT]
+[Text=procedure CharacterOffsetBegin=1806 CharacterOffsetEnd=1815 PartOfSpeech=NN]
+[Text=laid CharacterOffsetBegin=1816 CharacterOffsetEnd=1820 PartOfSpeech=VBN]
+[Text=down CharacterOffsetBegin=1821 CharacterOffsetEnd=1825 PartOfSpeech=RP]
+[Text=in CharacterOffsetBegin=1826 CharacterOffsetEnd=1828 PartOfSpeech=IN]
+[Text=article CharacterOffsetBegin=1829 CharacterOffsetEnd=1836 PartOfSpeech=NN]
+[Text=5 CharacterOffsetBegin=1837 CharacterOffsetEnd=1838 PartOfSpeech=CD]
+[Text=, CharacterOffsetBegin=1839 CharacterOffsetEnd=1840 PartOfSpeech=,]
+[Text=shall CharacterOffsetBegin=1841 CharacterOffsetEnd=1846 PartOfSpeech=MD]
+[Text=determine CharacterOffsetBegin=1847 CharacterOffsetEnd=1856 PartOfSpeech=VB]
+[Text=the CharacterOffsetBegin=1857 CharacterOffsetEnd=1860 PartOfSpeech=DT]
+[Text=appropriate CharacterOffsetBegin=1861 CharacterOffsetEnd=1872 PartOfSpeech=JJ]
+[Text=forms CharacterOffsetBegin=1873 CharacterOffsetEnd=1878 PartOfSpeech=NNS]
+[Text=for CharacterOffsetBegin=1879 CharacterOffsetEnd=1882 PartOfSpeech=IN]
+[Text=such CharacterOffsetBegin=1883 CharacterOffsetEnd=1887 PartOfSpeech=JJ]
+[Text=certification CharacterOffsetBegin=1888 CharacterOffsetEnd=1901 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=1902 CharacterOffsetEnd=1903 PartOfSpeech=.]
+
+Constituency parse:
+(ROOT
+  (S
+    (NP
+      (NP (DT the) (NN commission))
+      (, ,)
+      (PP (IN in)
+        (NP
+          (NP (NN accordance))
+          (PP (IN with)
+            (NP
+              (NP (DT the) (NN procedure))
+              (VP (VBN laid)
+                (PRT (RP down))
+                (PP (IN in)
+                  (NP (NN article) (CD 5))))))))
+      (, ,))
+    (VP (MD shall)
+      (VP (VB determine)
+        (NP
+          (NP (DT the) (JJ appropriate) (NNS forms))
+          (PP (IN for)
+            (NP (JJ such) (NN certification))))))
+    (. .)))
+
+
+Dependency Parse (enhanced plus plus dependencies):
+root(ROOT-0, determine-16)
+det(commission-2, the-1)
+nsubj(determine-16, commission-2)
+punct(commission-2, ,-3)
+case(procedure-8, in-4)
+mwe(in-4, accordance-5)
+mwe(in-4, with-6)
+det(procedure-8, the-7)
+nmod:in_accordance_with(commission-2, procedure-8)
+acl(procedure-8, laid-9)
+compound:prt(laid-9, down-10)
+case(article-12, in-11)
+nmod:in(laid-9, article-12)
+nummod(article-12, 5-13)
+punct(commission-2, ,-14)
+aux(determine-16, shall-15)
+det(forms-19, the-17)
+amod(forms-19, appropriate-18)
+dobj(determine-16, forms-19)
+case(certification-22, for-20)
+amod(certification-22, such-21)
+nmod:for(forms-19, certification-22)
+punct(determine-16, .-23)
+
