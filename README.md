@@ -4,7 +4,7 @@ Contains data/code for the paper "Neural Syntactic Preordering for Controlled Pa
 Additional data/resources/trained models are available at https://drive.google.com/drive/folders/1jfE9fUqn8NtLuugJlSPgnGqcvwt1nye2?usp=sharing
 The link contains training data to train new models, and also trained models for both SOW and REAP.
 
-# Training models
+# Training new models
 1. Download training data from the google drive. Keep data folder in the main folder. 
 2. Download resources from the google drive. Keep in the main folder.
 
