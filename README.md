@@ -25,12 +25,15 @@ python reap/train.py
 ```
 
 # Inference
+1. Download resources from the google drive. Keep in the main folder.
+2. To use trained models, download from the google drive. Change model location in the arguments to the trained model location.
+
 Paraphrases can be generated using three schemes:
-1. Baseline seq2seq that does not include any reorder information. Run generate_paraphrases_baseline.py (will be added soon). See sample_test_baseline.txt for sample input file. 
+1. Baseline seq2seq that does not include any reorder information. Run generate_paraphrases_baseline.py. See sample_test_baseline.txt for sample input file. 
 
 ```python generate_paraphrases_baseline.py```
 
-2. REAP model with ground truth ordering. See sample_test_gt_reap.txt for sample input file required. The file contains sentence_1, sentence_2, sentence_1_reordering, sentence_2_reordering. See processing/get_ground_truth_alignments.py to generate this sample data.
+2. REAP model with ground truth ordering. See sample_test_gt_reap.txt for sample input file required. The file contains sentence_1, sentence_2, sentence_1_reordering, sentence_2_reordering. See processing/get_ground_truth_alignments.py to generate this sample data (will be added soon).
 
 ```python generate_paraphrases_gt_reap.py```
 
