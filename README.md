@@ -1,5 +1,6 @@
 # sow-reap-paraphrasing
 Contains data/code for the paper "Neural Syntactic Preordering for Controlled Paraphrase Generation" (ACL 2020).
+https://arxiv.org/abs/2005.02013
 
 Additional data/resources/trained models are available at https://drive.google.com/drive/folders/1jfE9fUqn8NtLuugJlSPgnGqcvwt1nye2?usp=sharing
 The link contains training data to train new models, and also trained models for both SOW and REAP.
