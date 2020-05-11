@@ -27,7 +27,7 @@ python reap/train.py
 1. Download resources from the google drive. Keep in the main folder.
 2. To use trained models, download from the google drive. Change model location in the arguments to the trained model location.
 Paraphrases can be generated using three schemes:
-1. Baseline seq2seq that does not include any reorder information. Run generate_paraphrases_baseline.py. See sample_test_baseline.txt for sample input file. 
+1. Baseline seq2seq that does not include any reorder information. Run generate_paraphrases_baseline.py. See sample_test_baseline.txt for sample input file. (Use the PTB tokenizer to tokenize the file before running the system(
 
 ```python generate_paraphrases_baseline.py```
 
