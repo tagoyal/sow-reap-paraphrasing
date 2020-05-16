@@ -155,7 +155,7 @@ def main(args):
         for p, s in zip(preds_final, scores):
             f_out.write("Generated Sentence: %s \n" % p)
             f_out.write("Generation Score: %f \n" % s)
-        f_out.write("Ground Truth Ppl: %f \n " % nll)
+        f_out.write("Ground Truth nll: %f \n " % nll)
         f_out.write("\n")
 
 
