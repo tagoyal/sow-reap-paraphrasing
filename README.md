@@ -4,6 +4,8 @@ https://arxiv.org/abs/2005.02013
 
 Additional data/resources/trained models are available at https://drive.google.com/drive/folders/1jfE9fUqn8NtLuugJlSPgnGqcvwt1nye2?usp=sharing
 The link contains training data to train new models, and also trained models for both SOW and REAP.
+
+Environment base is Python 3.6. Also see requirements.txt.
 # Training new models
 1. Download training data from the google drive. Keep data folder in the main folder. 
 2. Download resources from the google drive. Keep in the main folder.
