@@ -1,4 +1,7 @@
 # sow-reap-paraphrasing
+
+CODE UPDATED ON 5.16.2020. PLEASE USE UPDATED VERISON. 
+
 Contains data/code for the paper "Neural Syntactic Preordering for Controlled Paraphrase Generation" (ACL 2020).
 https://arxiv.org/abs/2005.02013
 
