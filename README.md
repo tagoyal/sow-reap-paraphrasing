@@ -8,7 +8,8 @@ https://arxiv.org/abs/2005.02013
 Additional data/resources/trained models are available at https://drive.google.com/drive/folders/1jfE9fUqn8NtLuugJlSPgnGqcvwt1nye2?usp=sharing
 The link contains training data to train new models, and also trained models for both SOW and REAP.
 
-Environment base is Python 3.6. Also see requirements.txt.
+Environment base is Python 3.6. Also see requirements.txt. We used Stanford CoreNLP version 3.9.1.
+
 # Training new models
 1. Download training data from the google drive. Keep data folder in the main folder. 
 2. Download resources from the google drive. Keep in the main folder.
@@ -45,7 +46,8 @@ python generate_paraphrases_baseline.py
 ```python generate_paraphrases_gt_reap.py```
 
 3. Full SOW-REAP model. This first produces k reorderings for the input sentence using SOW, then generates a paraphrase correspondig to each of those reorderings (using REAP). 
-See sample_test_sow_reap.txt for sample input file required. We use the stanford nlp parser to generate this. To generate this file for your custom dataset, run the following command (from the stanford parser folder) on a file with the same input scheme as the sample_test_baseline.tok. When using your own test data, tokeinize the file separately (command above) before running the parser, otherwise some of the future code breaks or produces non-sensical outputs. 
+See sample_test_sow_reap.txt for sample input file required. We use the stanford nlp parser to generate this. To generate this file for your custom dataset, run the following command (from the stanford corenlp parser folder) on a file with the same input scheme as the sample_test_baseline.tok. 
+IMPORTANT: When using your own test data, tokeinize the file separately (command above) before running the parser, otherwise some of the future code breaks or produces non-sensical outputs. 
 
 ```
 java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLP -annotators tokenize,ssplit,pos,parse  -preserveLines -ssplit.eolonly true -outputFormat text -file sample_test_baseline.txt
