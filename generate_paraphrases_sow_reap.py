@@ -184,40 +184,39 @@ def main(args):
 
         input = sent.sent
 
-        #try:
-        minkey = min(list(tree.keys()))
-        node_outputs = {}
-        reorderings, _ = sow_model_obj.get_reordering(sent, nodes, tree, minkey, node_outputs)
-        reorderings_stage2 = []
-        for r in reorderings:
-            if len(r[1]) > MAX_NUM_REORDER:
-                continue
-            order = r[2]
-            reordered_sent = r[0]
-            if input != nodes[minkey].phrase:
-                preceeding_count = nodes[minkey].start_idx
-                following_count = len(input.split(' ')) - len(order) - preceeding_count
-                order = [x + preceeding_count for x in order]
-                order = list(range(preceeding_count)) + order
-                order = order + list(range(max(order) + 1, max(order) + 1 + following_count))
-                reordered_sent = ' '.join(input.split(' ')[:preceeding_count]) + ' ' + reordered_sent
-                reordered_sent += ' ' + ' '.join(input.split(' ')[-following_count:])
-            scores = r[3]
-            if len(scores) == 0:
-                scores = [0]
-            reorderings_stage2.append((reordered_sent, r[1], order, scores))
-            """
-            print(x[3])
-            print(order)
-            print("\n")
-            """
-        reorderings_stage2.sort(key=lambda x: np.mean(x[3]), reverse=True)
-        reorderings_stage2 = remove_duplicates(reorderings_stage2)[:10]
-        """
+        try:
+            minkey = min(list(tree.keys()))
+            node_outputs = {}
+            reorderings, _ = sow_model_obj.get_reordering(sent, nodes, tree, minkey, node_outputs)
+            reorderings_stage2 = []
+            for r in reorderings:
+                if len(r[1]) > MAX_NUM_REORDER:
+                    continue
+                order = r[2]
+                reordered_sent = r[0]
+                if input != nodes[minkey].phrase:
+                    preceeding_count = nodes[minkey].start_idx
+                    following_count = len(input.split(' ')) - len(order) - preceeding_count
+                    order = [x + preceeding_count for x in order]
+                    order = list(range(preceeding_count)) + order
+                    order = order + list(range(max(order) + 1, max(order) + 1 + following_count))
+                    reordered_sent = ' '.join(input.split(' ')[:preceeding_count]) + ' ' + reordered_sent
+                    reordered_sent += ' ' + ' '.join(input.split(' ')[-following_count:])
+                scores = r[3]
+                if len(scores) == 0:
+                    scores = [0]
+                reorderings_stage2.append((reordered_sent, r[1], order, scores))
+                """
+                print(x[3])
+                print(order)
+                print("\n")
+                """
+            reorderings_stage2.sort(key=lambda x: np.mean(x[3]), reverse=True)
+            reorderings_stage2 = remove_duplicates(reorderings_stage2)[:10]
         except:
             temp = input.split(' ')
             reorderings_stage2 = [(input, ["monotone"], list(range(len(temp))), [1.])]
-            print("NO REORDERING GENERATED")"""
+            print("NO REORDERING GENERATED")
 
         seg_sent = bpe.segment(input).split()
         tokens = input.split(' ')
