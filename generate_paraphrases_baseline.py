@@ -16,7 +16,7 @@ parser.add_argument('--model_reap', default='./models/baseline.pt',
                     help='model path reap')
 parser.add_argument('--model-config', default="{'hidden_size':256,'num_layers':2}",
                     help='architecture configuration')
-parser.add_argument('--device_ids', default=1,
+parser.add_argument('--device_ids', default=1, type=int,
                     help='device ids assignment')
 parser.add_argument('--device', default='cuda',
                     help='device assignment ("cpu" or "cuda")')
