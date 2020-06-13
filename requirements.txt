@@ -2,7 +2,6 @@ mock==2.0.0
 numpy==1.17.1
 h5py==2.9.0
 six==1.12.0
-~orch==1.2.0
 torchvision==0.4.0
 adabound==0.0.5
 bokeh==2.0.2
