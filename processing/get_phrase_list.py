@@ -1,3 +1,6 @@
+import pickle as pk
+import argparse, os
+
 class Token(object):
     def __init__(self, word, pos, idx):
         self.word = word
@@ -261,3 +264,28 @@ def read_next_sentence(file):
     return sentence
 
 
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='sow training')
+    parser.add_argument('--input_file', default='../sample_test_sow_reap.txt',
+                        help='input file')
+    parser.add_argument('--output_folder', default='sow_intermediate',
+                        help='input file')
+
+    args = parser.parse_args()
+    file_name = args.input_file
+    file = open(file_name)
+    file.readline()  ### READ TWO EXTRANEUOUS LINE OF FILE
+    file.readline()
+    file_obj = open(os.path.join(args.output_folder, 'phrases_sample_test_sow_reap.pkl'), "wb")
+    sentences = []
+
+    while True:
+        line = file.readline()
+        if line == "":  ### REACHED END OF FILE
+            break
+        else:
+            sentence = get_next_sentence(file)
+            sentences.append(sentence)
+
+    pk.dump(sentences, file_obj)
