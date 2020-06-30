@@ -11,9 +11,10 @@ The link contains training data to train new models, and also trained models for
 Environment base is Python 3.6. Also see requirements.txt. We used Stanford CoreNLP version 3.9.1.
 
 # Training new models
-1. Download training data from the google drive. Keep data folder in the main folder. 
+1. Download training data from the google drive. Keep data folder in the main folder. To train the model on custom data, refer to the instructions at https://github.com/tagoyal/sow-reap-paraphrasing/tree/master/processing 
 2. Download resources from the google drive. Keep in the main folder.
-Training SOW model
+
+## Training SOW model
 Data files train_sow.hdf5 and dev_sow.hdf5 correspond to the training and dev files for SOW. These contain phrase level inputs and outputs, with exactly two constituents abstracted out. We train a seqq2seq transformer model to learn this transduction. Run the following commands from the project root folder to train the sow model:
 
 ```
@@ -21,7 +22,7 @@ export PYTHONPATH=./
 python sow/train.py
 ```
 
-Training REAP model
+## Training REAP model
 Data files train.hdf5 and dev.hdf5 correspond to the training and dev files for REAP. This model learns a seq2seq model to paraphrase the input sentence, additionally conditioned on an input reordering, that indicates the desired order of content in the output sentence. Run the following commands from the project root folder to train the reap model:
 
 ```
