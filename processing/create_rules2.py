@@ -221,7 +221,7 @@ def get_rules(s1, s2, f1, f2):
 def read_next_sentence(file):
     lines = read_from_file(file)
 
-    if lines == None:
+    if lines is None:
         return lines
 
     sentence1 = [lines[idx] for idx in range(0, len(lines), 2)]
@@ -230,7 +230,7 @@ def read_next_sentence(file):
     try:
         sentence1 = Sentence(sentence1)
         sentence2 = Sentence(sentence2)
-        return ((sentence1, sentence2))
+        return (sentence1, sentence2)
     except:
         "error"
         return -1
