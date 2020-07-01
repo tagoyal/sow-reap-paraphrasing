@@ -194,13 +194,13 @@ def get_idf(input_sentences):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='sow training')
     parser.add_argument('--output_folder', default='sow_intermediate',
-                        help='input file')
+                        help='input/output folder')
     args = parser.parse_args()
 
     input_sentences = []
 
     input_sentences = pk.load(open(os.path.join(args.output_folder, 'phrases_sample_test_sow_reap.pkl'), 'rb'))
-    input_elmo = pk.load(open(os.path.join(args.output_folder,'elmo.pk'), 'rb'))
+    input_elmo = pk.load(open(os.path.join(args.output_folder, 'elmo.pk'), 'rb'))
     f_out = open(os.path.join(args.output_folder, 'phrase_alignments.out'), 'w')
 
     idf_dictionary = get_idf(input_sentences)

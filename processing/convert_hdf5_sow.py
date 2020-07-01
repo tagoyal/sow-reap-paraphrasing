@@ -169,8 +169,8 @@ if __name__ == '__main__':
                    "outputs": [], "output_lens": [], "output_pos": [],
                    "reordering_input": [], "reordering_output": []}
 
-    input_files = [args.input_folder + 'rules_with_reordering.out',
-                     args.input_folder + 'rules_no_reordering.out']
+    input_files = [args.input_folder + '/rules_with_reordering.out',
+                   args.input_folder + '/rules_no_reordering.out']
 
     for file in input_files:
         input_file = open(file, 'rb')

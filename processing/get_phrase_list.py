@@ -1,6 +1,7 @@
 import pickle as pk
 import argparse, os
 
+
 class Token(object):
     def __init__(self, word, pos, idx):
         self.word = word
@@ -262,7 +263,6 @@ def read_next_sentence(file):
         line = file.readline().strip()
     sentence = file.readline().strip()
     return sentence
-
 
 
 if __name__ == '__main__':
