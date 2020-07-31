@@ -189,7 +189,3 @@ if __name__ == '__main__':
     f.create_dataset("reordering_input", data=paraphrases["reordering_input"][train_size:], dtype="int32")
     f.create_dataset("reordering_output", data=paraphrases["reordering_output"][train_size:], dtype="int32")
     f.close()
-
-
-
-
