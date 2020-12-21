@@ -57,3 +57,7 @@ java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLP -annotators tokeniz
 The output from the stanford nlp parser serves as an input to our SOW-REAP generator. To generate paraphrases: 
 
 ```python generate_paraphrases_sow_reap.py```
+
+
+#
+The code in this repo uses the transformer implementaion from https://github.com/eladhoffer/seq2seq.pytorch
