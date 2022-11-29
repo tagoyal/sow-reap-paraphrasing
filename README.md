@@ -10,6 +10,17 @@ The link contains training data to train new models, and also trained models for
 
 Environment base is Python 3.6. Also see requirements.txt. We used Stanford CoreNLP version 3.9.1.
 
+# SOW-REAP
+
+The SOW-REAP pipeline generates syntactically diverse paraphrases using 2 steps.  
+
+1. Source Order reWriting: An encoder-decoder model is used to apply tranduction operations over various versions of the input sentence, obtained by abstracting out different pairs of constituents. 
+
+2. REarrangement Aware Paraphrasing: A combination of the transductions are chosen to construct an ordering guide. This ordering informs the generation of the output paraphrases.
+
+<img width="480" alt="Screen Shot 2022-11-29 at 1 54 22 AM" src="https://user-images.githubusercontent.com/22390810/204470816-07abed20-fe33-44ff-a9db-355290663c93.png">
+
+
 # Training new models
 1. Download training data from the google drive. Keep data folder in the main folder. To train the model on custom data, refer to the instructions at https://github.com/tagoyal/sow-reap-paraphrasing/tree/master/processing 
 2. Download resources from the google drive. Keep in the main folder.
